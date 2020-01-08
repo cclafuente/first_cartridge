@@ -1,0 +1,93 @@
+.page {
+    .hero {
+        background-position-y: 0;
+    }
+
+    .shop-the-style {
+        .hero {
+            background-position-y: 45%;
+        }
+    }
+}
+
+.category-tile {
+    border: 1px solid red;
+}
+
+.half-height {
+    min-height: 23.125em;
+
+}
+
+.full-height {
+    min-height: 51.725em;
+
+}
+
+.mens-jackets {
+    background-position: 50% 34%;
+}
+
+
+
+.womens-dresses {
+    background-position: 50% 15%;
+}
+
+.womens-jewelry {
+    background-position: 40% 60%;
+  
+}
+
+.shop-red {
+    background-position-y: 60%;
+    min-height: 28.65em;
+}
+
+
+.home-main-categories {
+    margin-bottom: 2em;
+    color: red;
+}
+
+.hp-product-grid {
+    margin: 0;
+
+    .hp-product-content {
+        background-color: transparent; // remove if no longer using Bootstrap .card styles
+        text-align: center;
+        border: 0;
+
+        span {
+            font-size: 1em;
+        }
+
+        span.largeText {
+            font-size: 5.5em;
+            font-weight: 200;
+
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+        }
+    }
+}
+
+.home-email-signup {
+    background-color: white;
+
+    > .container {
+        padding-top: 0.625em;
+        padding-bottom: 0.625em;
+    }
+
+    .email-description {
+        padding-top: 0.375em;
+        color: white;
+    }
+    .subscribe-email{
+        color: red;
+    }
+}
