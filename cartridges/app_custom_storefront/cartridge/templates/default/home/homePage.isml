@@ -39,7 +39,7 @@ ${pdict.param1}
                             </span>
                         </div>
                     </div>
-                    <div class="col-sm-7 email-description">${Resource.msg('description.form.emailsignup', 'homePage', null)}</div>
+                    <div class="col-sm-7 email-description ">${Resource.msg('description.form.emailsignup', 'homePage', null)}</div>
                 </div>
                 <div class="g-recaptcha" data-sitekey="6Ld1H8gUAAAAAHt7jxro2Bf0UgdJlJWMpAj0YGOQ"></div>
             </form>

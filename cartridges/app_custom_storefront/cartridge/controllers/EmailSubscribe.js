@@ -45,13 +45,13 @@ server.prepend("Subscribe", function(req, res, next){
     
     if (result.isOk()){
         let content = result.getObject();
-        let flickrFeed = JSON.parse(content);
-        logger.warn(flickrFeed);
-        logger.warn(flickrFeed.success);
-        if (flickrFeed.success == true){
-          logger.warn("EXITO EN recaptcha");
+        let recaptchaResponse = JSON.parse(content);
+        logger.warn(recaptchaResponse);
+        logger.warn(recaptchaResponse.success);
+        if (recaptchaResponse.success == true){
+          logger.warn("-- recaptcha OK --");
         }else{
-          logger.debug("ERROR CON recaptcha");
+          logger.debug("-- recaptcha FAIL --");
         }
     }
 
