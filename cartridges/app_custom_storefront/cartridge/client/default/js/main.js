@@ -1,3 +1,3 @@
 require('base/main');
 
-require('./footer/customFooter');
+require('./customFooter');

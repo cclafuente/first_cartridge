@@ -17,7 +17,7 @@ function displayMessage2(data, button) {
 
     if ($('.email-signup-message').length === 0) {
         $('body').append(
-           '<div class="email-signup-message2"></div>'
+           '<div class="email-signup-message"></div>'
         );
     }
     $('.email-signup-message')
